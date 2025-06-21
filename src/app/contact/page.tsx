@@ -10,7 +10,7 @@ export default function Contact() {
           <label className="block text-sm font-medium">Name</label>
           <input
             type="text"
-            className="mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-brand-500 focus:ring-brand-500"
+            className="mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-gray-500 focus:ring-gray-500"
             required
           />
         </div>
@@ -19,7 +19,7 @@ export default function Contact() {
           <label className="block text-sm font-medium">Email</label>
           <input
             type="email"
-            className="mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-brand-500 focus:ring-brand-500"
+            className="mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-gray-500 focus:ring-gray-500"
             required
           />
         </div>
@@ -28,14 +28,14 @@ export default function Contact() {
           <label className="block text-sm font-medium">Message</label>
           <textarea
             rows={4}
-            className="mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-brand-500 focus:ring-brand-500"
+            className="mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-gray-500 focus:ring-gray-500"
             required
           />
         </div>
 
         <button
           type="submit"
-          className="w-full rounded-md bg-black py-3 font-medium text-white transition hover:bg-black-200"
+          className="w-full rounded-md bg-gray-500 py-3 font-medium text-white transition hover:bg-gray-600"
         >
           Send
         </button>

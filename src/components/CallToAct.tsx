@@ -2,18 +2,18 @@ export default function CallToAct() {
     return (
       <section
         id="get-started"
-        className="relative isolate overflow-hidden bg-brand-500 text-white"
+        className="relative isolate overflow-hidden bg-gray-500 text-white"
       >
         <div className="container py-20 text-center md:py-28">
           <h2 className="font-display text-3xl font-bold md:text-4xl">
             Ready to launch?
           </h2>
-          <p className="mx-auto mt-4 max-w-md text-lg text-brand-50/90">
+          <p className="mx-auto mt-4 max-w-md text-lg text-gray-50/90">
             Sign up today and deploy in less than 5&nbsp;minutes.
           </p>
           <a
             href="/signup"
-            className="mt-8 inline-block rounded-md bg-white px-8 py-3 font-semibold text-brand-500 shadow-lg transition hover:scale-105"
+            className="mt-8 inline-block rounded-md bg-white px-8 py-3 font-semibold text-gray-500 shadow-lg transition hover:scale-105"
           >
             Create your account
           </a>

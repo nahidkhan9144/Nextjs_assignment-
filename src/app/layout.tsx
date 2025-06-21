@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 ['Contact', '/contact'],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="transition hover:text-brand-500">
+                  <Link href={href} className="transition hover:text-gray-500">
                     {label}
                   </Link>
                 </li>

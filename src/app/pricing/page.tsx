@@ -19,7 +19,7 @@ export default function Pricing() {
             <ul className="mt-6 space-y-2 text-left text-sm">
               {perks.map(p => <li key={p}>• {p}</li>)}
             </ul>
-            <button className="mt-8 w-full rounded-md bg-brand-500 py-3 font-medium text-white transition hover:bg-brand-600">
+            <button className="mt-8 w-full rounded-md bg-gray-500 py-3 font-medium text-white transition hover:bg-gray-600">
               {name === 'Starter' ? 'Get started' : 'Buy now'}
             </button>
           </div>
