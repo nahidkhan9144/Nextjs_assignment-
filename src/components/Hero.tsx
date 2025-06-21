@@ -36,7 +36,7 @@ export default function Hero() {
         <div className="relative mt-10 w-full max-w-md lg:mt-0 lg:w-1/2">
           {/* Replace `/dashboard.png` with your own optimized graphic */}
           <Image
-            src="/dashboard.png"
+            src="/assets/first.jpg"
             alt="App screenshot"
             width={800}
             height={600}
