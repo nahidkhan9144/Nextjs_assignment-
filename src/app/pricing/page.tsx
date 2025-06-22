@@ -1,4 +1,4 @@
-export const metadata = { title: 'Pricing — Acme Inc' };
+export const metadata = { title: 'Pricing — Test Inc' };
 
 const tiers = [
   { name: 'Starter', price: '$0', perks: ['1 project', 'Community support'] },

@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="absolute -top-32 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-gray-50 blur-3xl" />
       </div>
 
-      <div className="container flex flex-col items-center gap-6 py-24 md:py-32 lg:flex-row lg:gap-12">
+      <div className="container flex flex-col items-center gap-6 py-24 md:py-12 lg:flex-row lg:gap-12">
         <div className="text-center lg:w-1/2 lg:text-left">
           <h1 className="font-display text-4xl font-bold leading-tight md:text-5xl">
             Build products your users&nbsp;love
@@ -19,6 +19,7 @@ export default function Hero() {
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea soluta earum molestiae distinctio qui, facere enim quos. Nobis explicabo labore placeat quam ducimus. Quasi illum distinctio ab architecto. Nemo vitae eaque libero eum. Animi cum tempore laudantium tenetur veniam deleniti vitae. Iure repudiandae, libero temporibus at velit aut quos! Aliquam quas quos modi debitis ad eos optio. Animi, corrupti illo tempora excepturi fuga totam magnam minima repellendus reprehenderit aperiam et culpa consequuntur odio sit ducimus, nemo aut laboriosam. Quia accusantium nihil quae magni perspiciatis impedit, dignissimos veniam iure earum distinctio, necessitatibus tenetur provident excepturi! Voluptatum, dignissimos porro? Nam, repellat illo!</p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
+            <input type='text' className='p-2 rounded ' placeholder='lorem xyz' />
             <a
               href="#get-started"
               className="rounded-md bg-gray-500 px-6 py-3 text-white shadow-md shadow-gray-500/20 transition hover:bg-gray-600 focus:outline-none focus:ring-4 focus:ring-gray-500/30"
@@ -39,8 +40,8 @@ export default function Hero() {
           <Image
             src="/assets/first.jpg"
             alt="App screenshot"
-            width={800}
-            height={600}
+            width={200}
+            height={200}
             priority
             className="w-full rounded-xl border border-gray-100 shadow-lg"
           />

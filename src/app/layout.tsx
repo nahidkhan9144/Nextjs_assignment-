@@ -1,7 +1,7 @@
 import '@/app/globals.css';
 import Link from 'next/link';
 
-export const metadata = { title: 'Acme Inc', description: 'Build fast!' };
+export const metadata = { title: 'Test Inc', description: 'Build fast!' };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -10,7 +10,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="border-b">
           <nav className="container flex h-16 items-center justify-between">
             <Link href="/" className="font-display text-xl font-bold">
-              Acme
+              Test
             </Link>
             <ul className="flex gap-6 text-sm font-medium">
               {[
@@ -25,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </Link>
                 </li>
               ))}
+              <button className='pb-2 pr-2 pl-2 rounded bg-slate-300 text-black'>Sign In </button>
             </ul>
           </nav>
         </header>
@@ -32,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="min-h-[calc(100vh-4rem)]">{children}</main>
 
         <footer className="bg-gray-900 py-12 text-center text-sm text-gray-400">
-          © {new Date().getFullYear()} Acme Inc
+          © {new Date().getFullYear()} Test Inc
         </footer>
       </body>
     </html>
