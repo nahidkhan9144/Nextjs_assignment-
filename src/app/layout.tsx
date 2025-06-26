@@ -1,4 +1,5 @@
 import '@/app/globals.css';
+import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
 export const metadata = { title: 'Test Inc', description: 'Build fast!' };
@@ -12,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="font-display text-xl font-bold">
               Test
             </Link>
-            <ul className="flex gap-6 text-sm font-medium">
+            <ul className="flex gap-6 text-sm font-medium items-center">
               {[
                 ['About', '/about'],
                 ['Pricing', '/pricing'],
@@ -25,7 +26,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </Link>
                 </li>
               ))}
-              <button className='pb-2 pr-2 pl-2 rounded bg-slate-300 text-black'>Sign In </button>
+              <li>
+                <Button variant={'secondary'}>Sign In </Button>
+              </li>
             </ul>
           </nav>
         </header>

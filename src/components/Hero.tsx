@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-// import { Button } from './ui/button';
+import { Button } from './ui/button';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute -top-32 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-gray-50 blur-3xl" />
       </div>
-      {/* <Button>Click here</Button> */}
+     
 
       <div className="container flex flex-col items-center gap-6 py-24 md:py-12 lg:flex-row lg:gap-12">
         <div className="text-center lg:w-1/2 lg:text-left">
@@ -50,6 +50,7 @@ export default function Hero() {
             >
               How it works
             </a>
+             <Button variant='primary'  className="rounded-md border border-gray-500 px-6 py-3">Click here</Button>
           </div>
         </div>
 

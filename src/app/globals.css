@@ -2,12 +2,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 /* --- Your own styles & variables --- */
 
 /* Dark-mode overrides */
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
+/* Optionally, set fallback fonts */
+body {
+  font-family: 'Arial', sans-serif; /* You can use a fallback font for body text */
+}
 
 @layer base {
   :root {
