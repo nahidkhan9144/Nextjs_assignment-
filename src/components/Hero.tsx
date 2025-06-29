@@ -44,13 +44,13 @@ export default function Hero() {
             >
               Get started
             </a>
-            <a
+            {/* <a
               href="#learn-more"
               className="rounded-md border border-gray-500 px-6 py-3 text-gray-500 transition hover:bg-gray-50 focus:outline-none focus:ring-4 focus:ring-gray-500/30"
             >
               How it works
             </a>
-             <Button variant='primary'  className="rounded-md border border-gray-500 px-6 py-3">Click here</Button>
+             <Button variant='primary'  className="rounded-md border border-gray-500 px-6 py-3">Click here</Button> */}
           </div>
         </div>
 
