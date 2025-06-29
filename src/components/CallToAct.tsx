@@ -18,8 +18,6 @@ export default function CallToAct() {
             Create your account
           </a>
         </div>
-  
-        {/* decorative shape */}
         <svg
           className="absolute bottom-0 left-1/2 -z-10 w-[150%] -translate-x-1/2 text-white/10"
           viewBox="0 0 1440 320"
